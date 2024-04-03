@@ -1,0 +1,82 @@
+:root{
+    --pink: #EE7EA4;
+    --pink-light:#FFAECA;
+    --purple:#BF9AF1;
+    --purple-shadow:#785EA7;
+    --white: #ffff;
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body{
+    background-image: linear-gradient( to right, var(--pink) , 
+    var(--purple) );
+    /* background: linear-gradient( to right, pink purple); */
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cabecalho-main{
+    border-bottom: var(--pink) solid 1px;
+}
+
+main{
+
+    background-color: var(--white);
+    border-radius: 0px 20px 0px 20px;
+    padding: 50px;
+    height: 550px;
+    width: 300px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.322);
+}
+.nav-bar{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    border-bottom: var(--pink) solid  1px;
+}
+
+h1{
+    color: var(--purple-shadow) ;
+    padding: 15px;
+}
+
+.img-icon{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+
+}
+
+ul{
+    width: 150px;
+}
+
+.link{
+    color: var(--white);
+    font-size: 25px;
+    
+    background-color: var(--pink-light);
+    padding: 10px 100px;
+    border-radius: 0px 20px 0px 20px ;
+}
+
+ 
