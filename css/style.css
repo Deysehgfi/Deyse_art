@@ -38,20 +38,26 @@ main{
     background-color: var(--white);
     border-radius: 0px 20px 0px 20px;
     padding: 50px;
-    height: 550px;
-    width: 300px;
+    height: 500px;
+    width: 260px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.322);
+   
 }
+
 .nav-bar{
     padding-top: 40px;
     padding-bottom: 40px;
-    
     border-bottom: var(--pink) solid  1px;
 }
 
 h1{
     color: var(--purple-shadow) ;
     padding: 15px;
+    transition: 0.5s;
+}
+
+h1:hover{
+    color: var(--pink)
 }
 
 .img-icon{
@@ -62,21 +68,26 @@ h1{
 
 li{
     list-style: none;
-    padding: 20px;
+    padding: 30px;
 
 }
 
-ul{
-    width: 150px;
-}
+
 
 .link{
     color: var(--white);
     font-size: 25px;
-    
-    background-color: var(--pink-light);
-    padding: 10px 100px;
+    background-color: var(--pink);
     border-radius: 0px 20px 0px 20px ;
+    transition: 0.5s;
+    padding: 5px 40%;
+    position: relative;
+   
+
+
 }
 
+.link:hover{
+    background-color: var(--purple-shadow);
+}
  
