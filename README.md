@@ -1,4 +1,4 @@
-<h1>My profile</h1>
+<h2>My profile</h2>
 <hr>
 <h4>Artista</h4>
 
